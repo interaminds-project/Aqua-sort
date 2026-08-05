@@ -29,7 +29,7 @@ APP_NAME="Gradle"
 APP_BASE_NAME=`basename "$0"`
 
 # Add default JVM options here. You can also use JAVA_OPTS and GRADLE_OPTS to pass JVM options to this script.
-DEFAULT_JVM_OPTS='"-Xmx64m" "-Xms64m"'
+DEFAULT_JVM_OPTS="-Xmx512m -Xms256m"
 
 # Use the maximum available byte code version but no more than 17
 # Defaults to JVM default max bytecode version if JVM default max is less than 17
