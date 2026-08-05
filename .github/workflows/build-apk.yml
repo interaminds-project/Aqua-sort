@@ -25,7 +25,7 @@ jobs:
       uses: gradle/actions/setup-gradle@v4
 
     - name: Build Debug APK
-      run: gradle assembleDebug -x test --no-configuration-cache --stacktrace
+      run: ./gradlew assembleDebug -x test --no-configuration-cache --stacktrace
 
     - name: Upload Debug APK Artifact
       uses: actions/upload-artifact@v4
